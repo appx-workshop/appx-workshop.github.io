@@ -1,249 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="APPX is the CVPR 2026 workshop on appearance understanding and generation, spanning material perception, inverse rendering, and controllable synthesis.">
     <title>APPX Workshop @ CVPR 2026</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Public+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-
-    <header>
-        <div class="header-content">
-            <h1>APPX</h1>
-            <h2>Appearance Understanding and Generation</h2>
-            <div class="meta">
-                <div><i class="fas fa-calendar-alt"></i> CVPR 2026 Workshop</div>
-                <div><i class="fas fa-map-marker-alt"></i> June 4th, 1:30-5:30pm, Room 4AB</div>
-            </div>
-        </div>
-    </header>
-
-    <nav>
-        <a href="#about">About</a>
-        <a href="#call">Call for papers</a>
-        <a href="#speakers">Speakers</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#organizers">Organizers</a>
-    </nav>
-
-    <div class="container">
-
-        <section id="about">
-            <h2>About the Workshop</h2>
-            <p>
-                Understanding and generating appearance are increasingly interdependent challenges. Shape, texture, and reflectance together define how we see the world—and how models should represent it. Advances in intrinsic decomposition, material capture and recognition, and generative rendering now let us analyze and synthesize appearance with unprecedented fidelity.
-            </p>
-            <p>
-                Yet a key question remains: <strong>how can a deeper understanding of surface appearance support material perception and interaction, while enabling controllable, identity-preserving editing and consistent multimodal generation?</strong>
-            </p>
-            <p>
-                The Appearance Understanding and Generation (APPX) workshop unites researchers in vision, graphics, and generative AI to explore representations, datasets, and methods that bridge analysis and synthesis for more interpretable and controllable methods.
-            </p>
-        </section>
-
-        <section id="call">
-            <h2>Call for Papers</h2>
-            <p>
-                We invite submissions of papers accepted at CVPR 2026 that fall within the scope of appearance understanding and generation. Topics of interest include but are not limited to:
-                <ul>
-                    <li><strong>Intrinsic image decomposition:</strong> Albedo, shading, and reflectance separation</li>
-                    <li><strong>Material recognition and classification:</strong> Surface property estimation from imagery</li>
-                    <li><strong>BRDF/SVBRDF acquisition and modeling:</strong> Multi-view and single-image approaches</li>
-                    <li><strong>Inverse rendering:</strong> Lighting, geometry, and material estimation</li>
-                    <li><strong>Neural rendering:</strong> Physics-informed and appearance-aware methods</li>
-                    <li><strong>Generative appearance modeling:</strong> Material synthesis and editing</li>
-                    <li><strong>Relighting and view synthesis:</strong> Novel view generation with consistent appearance</li>
-                    <li><strong>Appearance transfer and style manipulation:</strong> Cross-domain material translation</li>
-                    <li><strong>Multimodal appearance understanding:</strong> Text-to-material and cross-modal synthesis</li>
-                </ul>
-                <p>
-                    The selected papers will be presented as posters during the workshop session, with spotlight presentations for featured works.
+    <div class="page-shell">
+        <header class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="eyebrow">CVPR 2026 Workshop</p>
+                <h1>APPX</h1>
+                <p class="hero-title">Appearance Understanding and Generation</p>
+                <p class="hero-copy">
+                    A focused venue for vision, graphics, and generative AI researchers working on the analysis,
+                    modeling, and controllable synthesis of appearance.
                 </p>
-                <p>
-                    Important submission information:
+                <div class="hero-meta" aria-label="Workshop details">
+                    <div class="meta-card">
+                        <span class="meta-label">When</span>
+                        <strong>June 4th, 1:30-5:30pm</strong>
+                    </div>
+                    <div class="meta-card">
+                        <span class="meta-label">Where</span>
+                        <strong>Room 4AB</strong>
+                    </div>
+                    <div class="meta-card">
+                        <span class="meta-label">Focus</span>
+                        <strong>Perception, rendering, and generation</strong>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#call" class="button button-primary">Submit a paper</a>
+                    <a href="#speakers" class="button button-secondary">Meet the speakers</a>
+                </div>
+            </div>
+        </header>
+
+        <nav class="section-nav" aria-label="Section navigation">
+            <a href="#about">About</a>
+            <a href="#call">Call for Papers</a>
+            <a href="#speakers">Speakers</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#organizers">Organizers</a>
+        </nav>
+
+        <main class="container">
+            <section id="about" class="panel intro-panel">
+                <div class="section-heading">
+                    <p class="section-kicker">Workshop Focus</p>
+                    <h3>Where material perception meets controllable generation</h3>
+                </div>
+                <div class="intro-layout">
+                    <div class="intro-copy">
+                        <p>
+                            Understanding and generating appearance are increasingly interdependent challenges. Shape,
+                            texture, and reflectance together define how we see the world and how models should
+                            represent it. Advances in intrinsic decomposition, material capture and recognition, and
+                            generative rendering now let us analyze and synthesize appearance with unprecedented
+                            fidelity.
+                        </p>
+                        <p>
+                            Yet a key question remains: <strong>how can a deeper understanding of surface appearance
+                                support material perception and interaction, while enabling controllable,
+                                identity-preserving editing and consistent multimodal generation?</strong>
+                        </p>
+                        <p>
+                            APPX brings together researchers in vision, graphics, and generative AI to explore the
+                            representations, datasets, and methods that bridge analysis and synthesis for more
+                            interpretable and controllable systems.
+                        </p>
+                    </div>
+                    <div class="focus-grid">
+                        <article class="focus-card">
+                            <span>01</span>
+                            <h3>Understand appearance</h3>
+                            <p>Intrinsic decomposition, reflectance, and material recognition grounded in real-world
+                                signals.</p>
+                        </article>
+                        <article class="focus-card">
+                            <span>02</span>
+                            <h3>Model physical behavior</h3>
+                            <p>Inverse rendering, BRDF acquisition, and rendering-aware methods that remain faithful to
+                                physics.</p>
+                        </article>
+                        <article class="focus-card">
+                            <span>03</span>
+                            <h3>Generate with control</h3>
+                            <p>Relighting, editing, and multimodal synthesis with stronger consistency and
+                                interpretability.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="call" class="panel panel-accent">
+                <div class="section-heading">
+                    <p class="section-kicker">Call for Papers</p>
+                    <h3>Accepted CVPR 2026 papers are welcome</h3>
+                </div>
+                <p class="section-intro">
+                    We invite submissions of papers accepted at CVPR 2026 that fall within the scope of appearance
+                    understanding and generation. Selected papers will be presented as posters during the workshop
+                    session, with spotlight presentations for featured works.
                 </p>
-                <ul>
-                    <li><strong>Submission form:</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB_KeTJurhFXtrgs1XK0q7O5tHCl1pSnTrjmmCtAvyeftopQ/viewform?usp=sharing&ouid=103890077236979990319" target="_blank">here</a></li>
-                    <li><strong>Submission deadline:</strong> Apr 7, 2026</li>
-                    <li><strong>Author notification:</strong> Apr 10, 2026</li>
-                </ul>
-            </p>
-        </section>
+                <br>
+                <!-- <div class="topic-grid" aria-label="Topics of interest">
+                    <div class="topic-pill">Intrinsic image decomposition</div>
+                    <div class="topic-pill">Material recognition and classification</div>
+                    <div class="topic-pill">BRDF and SVBRDF acquisition</div>
+                    <div class="topic-pill">Inverse rendering</div>
+                    <div class="topic-pill">Neural rendering</div>
+                    <div class="topic-pill">Generative appearance modeling</div>
+                    <div class="topic-pill">Relighting and view synthesis</div>
+                    <div class="topic-pill">Appearance transfer and style manipulation</div>
+                    <div class="topic-pill">Multimodal appearance understanding</div>
+                </div> -->
+                <div class="deadline-grid">
+                    <article class="deadline-card deadline-card-primary">
+                        <p class="deadline-label">Submission Form</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB_KeTJurhFXtrgs1XK0q7O5tHCl1pSnTrjmmCtAvyeftopQ/viewform?usp=sharing&ouid=103890077236979990319"
+                            target="_blank" rel="noreferrer">Open Google Form</a>
+                    </article>
+                    <article class="deadline-card">
+                        <p class="deadline-label">Submission Deadline</p>
+                        <strong>Apr 7, 2026</strong>
+                    </article>
+                    <article class="deadline-card">
+                        <p class="deadline-label">Author Notification</p>
+                        <strong>Apr 10, 2026</strong>
+                    </article>
+                </div>
+            </section>
 
-        <section id="speakers">
-            <h2>Invited Speakers</h2>
-            <div class="speaker-grid">
-                <!-- Talk #1: Shree Nayar -->
-                <div class="speaker-card">
-                    <img src="assets/images/avatars/nayar.jpg" alt="Shree Nayar" class="avatar">
-                    <h3><a href="https://www.cs.columbia.edu/~nayar/" target="_blank">Shree Nayar</a></h3>
-                    <p class="affiliation">Columbia University</p>
-                    <p class="bio">
-                        Foundational contributions to computational photography and appearance modeling. Co-developer of the Oren–Nayar reflectance model.
-                    </p>
+            <section id="speakers" class="panel">
+                <div class="section-heading">
+                    <p class="section-kicker">Invited Speakers</p>
+                    <h3>A lineup spanning vision, graphics, and generative modeling</h3>
                 </div>
+                <div class="speaker-grid">
+                    <article class="speaker-card">
+                        <img src="assets/images/avatars/nayar.jpg" alt="Shree Nayar" class="avatar">
 
-                <!-- Talk #2: Ravi Ramamoorthi -->
-                <div class="speaker-card">
-                    <img src="assets/images/avatars/ravi.png" alt="Ravi Ramamoorthi" class="avatar">
-                    <h3><a href="https://cseweb.ucsd.edu/~ravir/" target="_blank">Ravi Ramamoorthi</a></h3>
-                    <p class="affiliation">UCSD</p>
-                    <p class="bio">
-                        Leading researcher in physics-based vision and rendering. Known for light transport theory, inverse rendering, and neural radiance fields.
-                    </p>
-                </div>
+                        <h3><a href="https://www.cs.columbia.edu/~nayar/" target="_blank" rel="noreferrer">Shree
+                                Nayar</a></h3>
+                        <p class="affiliation">Columbia University</p>
+                        <p class="bio">Foundational contributions to computational photography and appearance modeling.
+                            Co-developer of the Oren-Nayar reflectance model.</p>
+                    </article>
 
-                <!-- Talk #3: Miloš Hašan -->
-                <div class="speaker-card">
-                    <img src="assets/images/avatars/milos.jpg" alt="Miloš Hašan" class="avatar">
-                    <h3><a href="https://miloshasan.net/" target="_blank">Miloš Hašan</a></h3>
-                    <p class="affiliation">NVIDIA Research</p>
-                    <p class="bio">
-                        Focuses on realistic material appearance, inverse material estimation, and high-resolution material synthesis.
-                    </p>
-                </div>
+                    <article class="speaker-card">
+                        <img src="assets/images/avatars/ravi.png" alt="Ravi Ramamoorthi" class="avatar">
 
-                <!-- Talk #4: Hongzhi Wu -->
-                <div class="speaker-card">
-                    <img src="assets/images/avatars/hwu.png" alt="Hongzhi Wu" class="avatar">
-                    <h3><a href="https://svbrdf.github.io/" target="_blank">Hongzhi Wu</a></h3>
-                    <p class="affiliation">Zhejiang University</p>
-                    <p class="bio">
-                        Known for material and reflectance acquisition, SVBRDF datasets, and learning-based high-fidelity material reconstruction.
-                    </p>
-                </div>
+                        <h3><a href="https://cseweb.ucsd.edu/~ravir/" target="_blank" rel="noreferrer">Ravi
+                                Ramamoorthi</a></h3>
+                        <p class="affiliation">UCSD</p>
+                        <p class="bio">Leading researcher in physics-based vision and rendering. Known for light
+                            transport theory, inverse rendering, and neural radiance fields.</p>
+                    </article>
 
-                <!-- Talk #5: Pieter Peers -->
-                <div class="speaker-card">
-                    <img src="assets/images/avatars/peers.jpg" alt="Pieter Peers" class="avatar">
-                    <h3><a href="https://www.cs.wm.edu/~ppeers/" target="_blank">Pieter Peers</a></h3>
-                    <p class="affiliation">College of William & Mary</p>
-                    <p class="bio">
-                        Pioneering work on multi-view material capture, relighting, appearance reproduction, and generative appearance.
-                    </p>
-                </div>
+                    <article class="speaker-card">
+                        <img src="assets/images/avatars/milos.jpg" alt="Milos Hasan" class="avatar">
 
-                <!-- Talk #6: Dor Verbin -->
-                <div class="speaker-card">
-                    <img src="assets/images/avatars/vd.jpg" alt="Dor Verbin" class="avatar">
-                    <h3><a href="https://dorverbin.github.io/" target="_blank">Dor Verbin</a></h3>
-                    <p class="affiliation">Google DeepMind</p>
-                    <p class="bio">
-                        Focuses on geometry-, physics-, and graphics-informed methods for understanding and synthesizing 3D scenes.
-                    </p>
-                </div>
+                        <h3><a href="https://miloshasan.net/" target="_blank" rel="noreferrer">Milos Hasan</a></h3>
+                        <p class="affiliation">NVIDIA Research</p>
+                        <p class="bio">Focuses on realistic material appearance, inverse material estimation, and
+                            high-resolution material synthesis.</p>
+                    </article>
 
-                <!-- Talk #7: Zhao Dong -->
-                <div class="speaker-card">
-                    <img src="assets/images/avatars/zhao.jpg" alt="Zhao Dong" class="avatar">
-                    <h3><a href="https://flycooler.com/" target="_blank">Zhao Dong</a></h3>
-                    <p class="affiliation">Meta Reality Labs</p>
-                    <p class="bio">
-                        Expert in 3D object/scene reconstruction, differentiable rendering, and materials & lighting modeling.
-                    </p>
-                </div>
-            </div>
-        </section>
+                    <article class="speaker-card">
+                        <img src="assets/images/avatars/hwu.png" alt="Hongzhi Wu" class="avatar">
 
-        <section id="schedule">
-            <h2>Schedule</h2>
-            <p><strong>Date:</strong> June 4th, 1:30–5:30pm, Room 4AB.</p>
-        
-            <table class="schedule-table">
-                <tbody>
-                    <tr>
-                        <td class="time-col">1:30 – 1:35 PM</td>
-                        <td><strong>Opening Remarks</strong></td>
-                    </tr>
-                    <tr>
-                        <td class="time-col">1:35 – 2:05 PM</td>
-                        <td><strong>Invited Talk: Shree Nayar</strong></td>
-                    </tr>
-                    <tr>
-                        <td class="time-col">2:05 – 2:35 PM</td>
-                        <td><strong>Invited Talk: Ravi Ramamoorthi</strong></td>
-                    </tr>
-                    <tr>
-                        <td class="time-col">2:35 – 3:00 PM</td>
-                        <td><strong>Invited Talk: Miloš Hašan</strong></td>
-                    </tr>
-                    <tr>
-                        <td class="time-col">3:00 – 3:40 PM</td>
-                        <td>Coffee Break & Poster Session</td>
-                    </tr>
-                    <tr>
-                        <td class="time-col">3:40 – 4:15 PM</td>
-                        <td>Highlight Talks (4–5 papers)</td>
-                    </tr>
-                    <tr>
-                        <td class="time-col">4:10 – 4:30 PM</td>
-                        <td><strong>Invited Talk: Pieter Peers</strong></td>
-                    </tr>
-                    <tr>
-                        <td class="time-col">4:30 – 4:50 PM</td>
-                        <td><strong>Invited Talk: Hongzhi Wu</strong></td>
-                    </tr>
-                    <tr>
-                        <td class="time-col">4:50 – 5:10 PM</td>
-                        <td><strong>Invited Talk: Zhao Dong</strong></td>
-                    </tr>
-                    <tr>
-                        <td class="time-col">5:10 – 5:30 PM</td>
-                        <td><strong>Invited Talk: Dor Verbin</strong></td>
-                    </tr>
-                    <tr>
-                        <td class="time-col">5:30 – 5:35 PM</td>
-                        <td><strong>Closing Remarks</strong></td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+                        <h3><a href="https://svbrdf.github.io/" target="_blank" rel="noreferrer">Hongzhi Wu</a></h3>
+                        <p class="affiliation">Zhejiang University</p>
+                        <p class="bio">Known for material and reflectance acquisition, SVBRDF datasets, and
+                            learning-based high-fidelity material reconstruction.</p>
+                    </article>
 
-        <section id="organizers">
-            <h2>Organizers</h2>
-            <div class="organizer-list">
-                <div class="organizer-item">
-                    <img src="assets/images/avatars/elena.jpg" alt="Elena Garces" class="avatar">
-                    <a href="https://www.elenagarces.es/" target="_blank">Elena Garces</a>
-                    <br><span style="font-size: 0.9em; color: #666;">Senior Research Scientist</span>
-                    <br><span style="font-size: 0.9em; color: #666; font-weight: 600;">Adobe Research</span>
-                </div>
-                <div class="organizer-item">
-                    <img src="assets/images/avatars/valentin.jpg" alt="Valentin Deschaintre" class="avatar">
-                    <a href="https://valentin.deschaintre.fr/" target="_blank">Valentin Deschaintre</a>
-                    <br><span style="font-size: 0.9em; color: #666;">Senior Research Scientist</span>
-                    <br><span style="font-size: 0.9em; color: #666; font-weight: 600;">Adobe Research</span>
-                </div>
-                <div class="organizer-item">
-                    <img src="assets/images/avatars/iliyan.jpg" alt="Iliyan Georgiev" class="avatar">
-                    <a href="https://iliyan.com/" target="_blank">Iliyan Georgiev</a>
-                    <br><span style="font-size: 0.9em; color: #666;">Senior Research Scientist</span>
-                    <br><span style="font-size: 0.9em; color: #666; font-weight: 600;">Adobe Research</span>
-                </div>
-                <div class="organizer-item">
-                    <img src="assets/images/avatars/giuseppe.jpg" alt="Giuseppe Vecchio" class="avatar">
-                    <a href="https://www.gvecchio.com/" target="_blank">Giuseppe Vecchio</a>
-                    <br><span style="font-size: 0.9em; color: #666;">Research Scientist</span>
-                    <br><span style="font-size: 0.9em; color: #666; font-weight: 600;">Adobe Research</span>
-                </div>
-                <div class="organizer-item">
-                    <img src="assets/images/avatars/michael.jpg" alt="Michael Fischer" class="avatar">
-                    <a href="https://mfischer-ucl.github.io/" target="_blank">Michael Fischer</a>
-                    <br><span style="font-size: 0.9em; color: #666;">Research Scientist</span>
-                    <br><span style="font-size: 0.9em; color: #666; font-weight: 600;">Adobe Research</span>
-                </div>
-            </div>
-        </section>
+                    <article class="speaker-card">
+                        <img src="assets/images/avatars/peers.jpg" alt="Pieter Peers" class="avatar">
 
+                        <h3><a href="https://www.cs.wm.edu/~ppeers/" target="_blank" rel="noreferrer">Pieter Peers</a>
+                        </h3>
+                        <p class="affiliation">College of William &amp; Mary</p>
+                        <p class="bio">Pioneering work on multi-view material capture, relighting, appearance
+                            reproduction, and generative appearance.</p>
+                    </article>
+
+                    <article class="speaker-card">
+                        <img src="assets/images/avatars/vd.jpg" alt="Dor Verbin" class="avatar">
+
+                        <h3><a href="https://dorverbin.github.io/" target="_blank" rel="noreferrer">Dor Verbin</a></h3>
+                        <p class="affiliation">Google DeepMind</p>
+                        <p class="bio">Focuses on geometry-, physics-, and graphics-informed methods for understanding
+                            and synthesizing 3D scenes.</p>
+                    </article>
+
+                    <article class="speaker-card">
+                        <img src="assets/images/avatars/zhao.jpg" alt="Zhao Dong" class="avatar">
+
+                        <h3><a href="https://flycooler.com/" target="_blank" rel="noreferrer">Zhao Dong</a></h3>
+                        <p class="affiliation">Meta Reality Labs</p>
+                        <p class="bio">Expert in 3D object and scene reconstruction, differentiable rendering, and
+                            materials and lighting modeling.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="schedule" class="panel schedule-panel">
+                <div class="section-heading">
+                    <p class="section-kicker">Schedule</p>
+                    <h3>June 4th, 1:30-5:35pm, Room 4AB</h3>
+                </div>
+                <div class="schedule-list">
+                    <article class="schedule-item">
+                        <p class="schedule-time">1:30 - 1:35 PM</p>
+                        <div>
+                            <h3>Opening Remarks</h3>
+                            <p>Welcome and framing for the workshop themes.</p>
+                        </div>
+                    </article>
+                    <article class="schedule-item">
+                        <p class="schedule-time">1:35 - 2:05 PM</p>
+                        <div>
+                            <h3>Invited Talk: Shree Nayar</h3>
+                            <p>Computational photography and appearance modeling.</p>
+                        </div>
+                    </article>
+                    <article class="schedule-item">
+                        <p class="schedule-time">2:05 - 2:35 PM</p>
+                        <div>
+                            <h3>Invited Talk: Ravi Ramamoorthi</h3>
+                            <p>Physics-based vision, rendering, and radiance field methods.</p>
+                        </div>
+                    </article>
+                    <article class="schedule-item">
+                        <p class="schedule-time">2:35 - 3:00 PM</p>
+                        <div>
+                            <h3>Invited Talk: Milos Hasan</h3>
+                            <p>Material synthesis and inverse material estimation.</p>
+                        </div>
+                    </article>
+                    <article class="schedule-item schedule-item-break">
+                        <p class="schedule-time">3:00 - 3:40 PM</p>
+                        <div>
+                            <h3>Coffee Break and Poster Session</h3>
+                            <p>Poster presentations and informal discussion with participants.</p>
+                        </div>
+                    </article>
+                    <article class="schedule-item schedule-item-highlight">
+                        <p class="schedule-time">3:40 - 4:15 PM</p>
+                        <div>
+                            <h3>Highlight Talks</h3>
+                            <p>Featured presentations from four to five selected papers.</p>
+                        </div>
+                    </article>
+                    <article class="schedule-item">
+                        <p class="schedule-time">4:10 - 4:30 PM</p>
+                        <div>
+                            <h3>Invited Talk: Pieter Peers</h3>
+                            <p>Material capture, relighting, and appearance reproduction.</p>
+                        </div>
+                    </article>
+                    <article class="schedule-item">
+                        <p class="schedule-time">4:30 - 4:50 PM</p>
+                        <div>
+                            <h3>Invited Talk: Hongzhi Wu</h3>
+                            <p>SVBRDF datasets and high-fidelity material reconstruction.</p>
+                        </div>
+                    </article>
+                    <article class="schedule-item">
+                        <p class="schedule-time">4:50 - 5:10 PM</p>
+                        <div>
+                            <h3>Invited Talk: Zhao Dong</h3>
+                            <p>Reconstruction, differentiable rendering, and lighting models.</p>
+                        </div>
+                    </article>
+                    <article class="schedule-item">
+                        <p class="schedule-time">5:10 - 5:30 PM</p>
+                        <div>
+                            <h3>Invited Talk: Dor Verbin</h3>
+                            <p>Graphics-informed methods for understanding and synthesizing 3D scenes.</p>
+                        </div>
+                    </article>
+                    <article class="schedule-item">
+                        <p class="schedule-time">5:30 - 5:35 PM</p>
+                        <div>
+                            <h3>Closing Remarks</h3>
+                            <p>Wrap-up and directions for continued discussion.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="organizers" class="panel">
+                <div class="section-heading">
+                    <p class="section-kicker">Organizers</p>
+                    <!-- <h2>Workshop organizers from Adobe Research</h2> -->
+                </div>
+                <div class="organizer-grid">
+                    <article class="organizer-card">
+                        <img src="assets/images/avatars/elena.jpg" alt="Elena Garces" class="avatar">
+                        <h3><a href="https://www.elenagarces.es/" target="_blank" rel="noreferrer">Elena Garces</a></h3>
+                        <p>Senior Research Scientist</p>
+                        <strong>Adobe Research</strong>
+                    </article>
+                    <article class="organizer-card">
+                        <img src="assets/images/avatars/valentin.jpg" alt="Valentin Deschaintre" class="avatar">
+                        <h3><a href="https://valentin.deschaintre.fr/" target="_blank" rel="noreferrer">Valentin
+                                Deschaintre</a></h3>
+                        <p>Senior Research Scientist</p>
+                        <strong>Adobe Research</strong>
+                    </article>
+                    <article class="organizer-card">
+                        <img src="assets/images/avatars/iliyan.jpg" alt="Iliyan Georgiev" class="avatar">
+                        <h3><a href="https://iliyan.com/" target="_blank" rel="noreferrer">Iliyan Georgiev</a></h3>
+                        <p>Senior Research Scientist</p>
+                        <strong>Adobe Research</strong>
+                    </article>
+                    <article class="organizer-card">
+                        <img src="assets/images/avatars/giuseppe.jpg" alt="Giuseppe Vecchio" class="avatar">
+                        <h3><a href="https://www.gvecchio.com/" target="_blank" rel="noreferrer">Giuseppe Vecchio</a>
+                        </h3>
+                        <p>Research Scientist</p>
+                        <strong>Adobe Research</strong>
+                    </article>
+                    <article class="organizer-card">
+                        <img src="assets/images/avatars/michael.jpg" alt="Michael Fischer" class="avatar">
+                        <h3><a href="https://mfischer-ucl.github.io/" target="_blank" rel="noreferrer">Michael
+                                Fischer</a></h3>
+                        <p>Research Scientist</p>
+                        <strong>Adobe Research</strong>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>APPX Workshop at CVPR 2026</p>
+            <p class="footer-note">Appearance understanding and generation for interpretable, controllable visual
+                models.</p>
+        </footer>
     </div>
-
-    <footer>
-        <p>&copy; 2026 APPX Workshop Organizers</p>
-    </footer>
-
 </body>
+
 </html>
